@@ -13,5 +13,9 @@ where <img src="http://latex.codecogs.com/gif.latex?\sigma" title="\sigma" /> is
 ## model architecture
 
 
+```
+python predict.py 'thanks' 
+```
+<img src="https://github.com/sbrsarkar/neural_recommender/blob/master/loss.png" alt="training loss" width="450" height="350">
 
 [1]: Guo, Huifeng, Ruiming Tang, Yunming Ye, Zhenguo Li, and Xiuqiang He. "Deepfm: a factorization-machine based neural network for ctr prediction." arXiv preprint arXiv:1703.04247 (2017).
