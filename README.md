@@ -28,4 +28,7 @@ training mse: 0.01361, testing mse: 0.05956
 
 
 
+
+
+
 [1]: Guo, Huifeng, Ruiming Tang, Yunming Ye, Zhenguo Li, and Xiuqiang He. "Deepfm: a factorization-machine based neural network for ctr prediction." arXiv preprint arXiv:1703.04247 (2017).
