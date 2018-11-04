@@ -10,6 +10,7 @@ Let the input be x , output of the factorization method be y<sub>MF</sub>(x) and
 where <img src="http://latex.codecogs.com/gif.latex?\sigma" title="\sigma" /> is the sigmoid activation function. For more details, refer to [1].
 
 
+## model architecture
 
 
 
