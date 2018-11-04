@@ -10,12 +10,19 @@ Let the input be x , output of the factorization method be y<sub>MF</sub>(x) and
 where <img src="http://latex.codecogs.com/gif.latex?\sigma" title="\sigma" /> is the sigmoid activation function. For more details, refer to [1].
 
 
+## training
+To train the network, run the following command in terminal
+```
+python train.py 
+```
+It will train the network using default settings, show the training loss figure and save the trained model as 'model.pt'.
+
+<img src="https://github.com/sbrsarkar/neural_recommender/blob/master/loss.png" alt="training loss" width="450" height="350">
+
 ## model architecture
 
 
-```
-python predict.py 'thanks' 
-```
-<img src="https://github.com/sbrsarkar/neural_recommender/blob/master/loss.png" alt="training loss" width="450" height="350">
+
+
 
 [1]: Guo, Huifeng, Ruiming Tang, Yunming Ye, Zhenguo Li, and Xiuqiang He. "Deepfm: a factorization-machine based neural network for ctr prediction." arXiv preprint arXiv:1703.04247 (2017).
