@@ -2,5 +2,4 @@
 Movie recommender system based on Deep Factorization Machine DeepFM [^ref1] . It uses the 
 
 
-[^ref1]: HuifengGuo,RuimingTang,YunmingYe,ZhenguoLi,andXiuqiangHe.2017.DeepFM:AFactorization-MachinebasedNeuralNetwork
-for CTR Prediction. In IJCAI. 2782–2788
+[^ref1]: Guo, Huifeng, Ruiming Tang, Yunming Ye, Zhenguo Li, and Xiuqiang He. "Deepfm: a factorization-machine based neural network for ctr prediction." arXiv preprint arXiv:1703.04247 (2017).
