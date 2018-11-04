@@ -1,7 +1,7 @@
 # neural_recommender
 Movie recommender system based on Deep Factorization Machine, DeepFM [1] . It combines matrix factorization and deep neural network to build a hybrid recommendation system. The neural network captures the high-order features and the factorization method captures the low-order features. 
 
-<sub>subscript</sub>
+y<sub>subscript</sub>
 
 Let the input be x , output of the factorization method be y_MF(x) and the output of the neural network be y_NN(x). Then the final prediction is given by,
 
