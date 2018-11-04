@@ -1,5 +1,5 @@
 # neural_recommender
-Movie recommender system based on Deep Factorization Machine DeepFM [^ref1] . It uses the 
+Movie recommender system based on Deep Factorization Machine DeepFM [1] . It uses the 
 
 
-[^ref1]: Guo, Huifeng, Ruiming Tang, Yunming Ye, Zhenguo Li, and Xiuqiang He. "Deepfm: a factorization-machine based neural network for ctr prediction." arXiv preprint arXiv:1703.04247 (2017).
+[1]: Guo, Huifeng, Ruiming Tang, Yunming Ye, Zhenguo Li, and Xiuqiang He. "Deepfm: a factorization-machine based neural network for ctr prediction." arXiv preprint arXiv:1703.04247 (2017).
