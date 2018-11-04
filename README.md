@@ -5,7 +5,7 @@ Movie recommender system based on Deep Factorization Machine, DeepFM [1] . It co
 
 Let the input be x , output of the factorization method be y<sub>MF</sub>(x) and the output of the neural network be y<sub>NN</sub>(x). Then the final prediction is given by,
 
-<img src="http://latex.codecogs.com/gif.latex?\widehat{y}(x)&space;=&space;y_{MK}(x)&space;&plus;&space;y_{NN}(x)" title="\widehat{y}(x) = \sigma(y_{MK}(x) + y_{NN}(x))" /> 
+<img src="http://latex.codecogs.com/gif.latex?\widehat{y}(x)&space;=&space;\sigma(y_{MF}(x)&space;&plus;&space;y_{NN}(x))" title="\widehat{y}(x) = \sigma(y_{MF}(x) + y_{NN}(x))" />
 
 where <img src="http://latex.codecogs.com/gif.latex?\sigma" title="\sigma" /> is the sigmoid activation function. For more details, refer to [1].
 
