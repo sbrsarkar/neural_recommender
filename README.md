@@ -19,8 +19,7 @@ It will train the network using default settings, show the training loss figure 
 
 <img src="https://github.com/sbrsarkar/neural_recommender/blob/master/loss.png" alt="training loss" width="450" height="350">
 
-training mse: 0.01360675971955061 
-testing mse: 0.059557948261499405
+training mse: 0.013606, testing mse: 0.05956
 
 ## model architecture
 
