@@ -1,8 +1,11 @@
 from utils import *
+## Note: before running this script, download the MovieLens 100k dataset
+##.      in directory ml-100k and then run this script. 
 
 ##--------------------Load and Process data-------------------
 # load ratings data 
 #------------------
+
 ratings = pd.read_csv('ml-100k/u.data',
                        sep='\t',
                        names=['userId','movieId','rating','time'])
@@ -13,6 +16,7 @@ ratings['time'] = ratings['time']/(3600*24*30)
 ratings['time'] = (ratings['time']-ratings['time'].mean())\
                    /np.sqrt(ratings['time'].var())
 
+  
 # load users data & process it
 #----------------------------
 users  = pd.read_csv('ml-100k/u.user',sep='|',
@@ -27,6 +31,7 @@ users['zip'] = users['zip'].apply(is_number)
 users['zip'] = (users['zip']-users['zip'].mean())/np.sqrt(users['zip'].var())
 # normalize age
 users['age'] = (users['age']-users['age'].mean())/np.sqrt(users['age'].var())
+
 
 # load movies data  & process it 
 #-------------------------------
